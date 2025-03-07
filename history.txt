@@ -1,0 +1,209 @@
+    1  mcdir komandi
+    2  mkdir komandi
+    3  ls
+    4  cd komandi/
+    5  vim my_script.sh
+    6  ls /
+    7  bash my_script.sh 
+    8  vim my_script.sh 
+    9  bash my_script.sh 
+   10  vim my_script.sh 
+   11  bash my_script.sh 
+   12  cd komandi/
+   13  git init
+   14  git add my_script.sh 
+   15  git commit -m "ja_loh"
+   16  git status
+   17  git config --global user.name "RedProgrammist"
+   18  git config --global user.email "programmingjavascript2021@gmail.com"
+   19  git status
+   20  git commit -m "ja_loh"
+   21  git status
+   22  git log
+   23  git push origin master
+   24  git remote add origin https://github.com/AllaVin/git_team_work.git
+   25  cd komandi/
+   26  git remote add origin https://github.com/AllaVin/git_team_work.git
+   27  git remote add origin https://github.com/AllaVin/git_team_work.git
+   28  git push origin master
+   29  Username for 'https://github.com': RedProgrammist
+   30  Password for 'https://%D0%9ARedProgrammist@github.com':
+   31  remote: Permission to AllaVin/git_team_work.git denied to RedProgrammi[A
+   32  git push origin master
+   33  git remote add origin git@github.com:it-career-hub/git_team_work.git
+   34  git remote remove origin
+   35  git remote add origin git@github.com:it-career-hub/git_team_work.git
+   36  git push origin master
+   37  ls ~/.ssh
+   38  ssh-keygen -t rsa -b 4096 -C "programmingjavascript2021@gmail.com"
+   39  ls ~/.ssh
+   40  git push origin master
+   41  eval "$(ssh-agent -s)"
+   42  ssh-add ~/.ssh/id_rsa
+   43  cat ~/.ssh/id_rsa.pub
+   44  git push origin master
+   45  ssh-add -l
+   46  ssh -T git@github.com
+   47  cat ~/.ssh/id_rsa.pub
+   48  git push origin master
+   49  git push origin mean
+   50  git push origin main
+   51  git status
+   52  git checkout -b my_three
+   53  git cd ..
+   54  git clone git@github.com:AllaVin/git_team_work.git
+   55  cd git_team_work/
+   56  git checkout -b my_three
+   57  git status
+   58  ls
+   59  vim 11-11-24.sh 
+   60  ls
+   61  cd komandi/
+   62  ls
+   63  cat my_script.sh 
+   64  cd ..
+   65  mkdir uroki
+   66  cd uroki/
+   67  vim myfirstbashscript.sh
+   68  chmod +x myfirstbashscript.sh 
+   69  bash myfirstbashscript.sh 
+   70  cd ..
+   71  grep USER
+   72  grep "*.sh"
+   73  grep "*.sh" *
+   74  ls
+   75  cd uroki/
+   76  grep "*.sh" *
+   77  ls
+   78  grep "user" *
+   79  grep "U" *
+   80  grep -v ".sh" *
+   81  grep -v ".sha" *
+   82  pwd
+   83  vim myfirstbashscript.sh 
+   84  bash myfirstbashscript.sh 
+   85  cd uroki/
+   86  vim myfirstbashscript.sh 
+   87  bash myfirstbashscript.sh 
+   88  awk myfirstbashscript.sh 
+   89  ls -l myfirstbashscript.sh 
+   90  ls -l myfirstbashscript.sh | awk '$1'
+   91  ls -l myfirstbashscript.sh | awk '{print $1}'
+   92  vim myfirstbashscript.sh 
+   93  bash myfirstbashscript.sh 
+   94  vim myfirstbashscript.sh 
+   95  bash myfirstbashscript.sh 
+   96  vim myfirstbashscript.sh 
+   97  bash myfirstbashscript.sh 
+   98  ls
+   99  cat result.txt 
+  100  vim myfirstbashscript.sh 
+  101  bash myfirstbashscript.sh 
+  102  cat result.txt 
+  103  vim result.txt 
+  104  bash myfirstbashscript.sh 
+  105  cat result.txt 
+  106  vim myfirstbashscript.sh 
+  107  realpath 
+  108  vim myfirstbashscript.sh 
+  109  bash myfirstbashscript.sh 
+  110  vim myfirstbashscript.sh 
+  111  bash myfirstbashscript.sh 
+  112  cat result.txt 
+  113  rm result.txt 
+  114  cat result.txt 
+  115  bash myfirstbashscript.sh 
+  116  cat result.txt 
+  117  cat myfirstbashscript.sh 
+  118  ssh session: ssh wvV7L3cS8Ty7FhbhrUJf9yanJ@lon1.tmate.io
+  119  ls
+  120  cd .
+  121  cd /
+  122  ls
+  123  cd home/
+  124  exit
+  125  wsl root
+  126  cd /home
+  127  mkdir animals
+  128  sudo -l
+  129  wsl -l -v
+  130  wsl -u root
+  131  -u root
+  132  passwd redprogrmmist_123
+  133  sudo -
+  134  su -
+  135  1
+  136  su -
+  137  sudo nano /etc/shadow
+  138  sudo -i
+  139  pwd
+  140  mkdir my_git
+  141  cd my_git/
+  142  git init git_branch
+  143  git branch gitignore
+  144  ls
+  145  cd git_branch/
+  146  git branch gitignore
+  147  git add .
+  148  git commit -m My_kommit
+  149  git branch gitignore
+  150  touch new_file.txt
+  151  git add new_file.txt 
+  152  git commit -m My_kommit
+  153  git branch gitignore
+  154  vim cto-to
+  155  git branch
+  156  git checkout gitignore 
+  157  git branch
+  158  git add cto-to 
+  159  git commit pochti_final
+  160  git commit -m pochti_final
+  161  git remote add origin git@github.com:RedProgrammist/git_branch.git
+  162  git remote -v
+  163  git push -u origin gitignore 
+  164  ls
+  165  cd my_git/
+  166  ls
+  167  git clone git@github.com:RedProgrammist/new_rep.git
+  168  ls
+  169  cd new_rep/
+  170  touch .gitignore 
+  171  git add .gitignore 
+  172  touch README.md
+  173  git add README.md 
+  174  git commit first
+  175  git commit -m first
+  176  git branch 
+  177  git status
+  178  git branch feature
+  179  git checkout feature 
+  180  echo izmena >> .gitignore 
+  181  echo izmena >> README.md 
+  182  cat .gitignore 
+  183  cat README.md 
+  184  git add .gitignore 
+  185  git add README.md 
+  186  git commit in_feat
+  187  git commit "in_feat"
+  188  git commit -m in_feat
+  189  cat README.md 
+  190  git checkout main 
+  191  cat README.md 
+  192  git checkout feature 
+  193  cat README.md 
+  194  git push
+  195  git remote add origin git@github.com:RedProgrammist/new_rep.git
+  196  git push -u origin feature
+  197  git push --all origin
+  198  ls
+  199  cd my_git/new_rep/
+  200  git branch 
+  201  git commit --amend
+  202  git branche
+  203  git branch 
+  204  git checkout
+  205* 
+  206  git branch 
+  207  git merge feature 
+  208  cat README.md 
+  209  history > history.txt
